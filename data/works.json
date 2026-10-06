@@ -1,0 +1,28 @@
+[
+  {
+    "id": "app-design",
+    "title": "App Design",
+    "subtitle": "Openigloo mobile",
+    "description": "React Native apps for iOS and Android, built for performance and a smooth experience.",
+    "background": "var(--yel)",
+    "color": "#12343b"
+  },
+  {
+    "id": "web",
+    "title": "Web",
+    "subtitle": "Openigloo web",
+    "description": "Next.js experiences with reusable, well-tested front-end patterns.",
+    "background": "var(--teal)",
+    "color": "#ffffff",
+    "phoneTransform": "rotate(-6deg)"
+  },
+  {
+    "id": "release",
+    "title": "Release",
+    "subtitle": "CI/CD & Fastlane",
+    "description": "Automated builds and releases for iOS and Android across staging and production.",
+    "background": "var(--mint)",
+    "color": "#12343b"
+  }
+]
+

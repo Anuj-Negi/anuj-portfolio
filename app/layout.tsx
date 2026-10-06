@@ -20,13 +20,19 @@ export const metadata: Metadata = {
     "Anuj Negi, senior software engineer with 6 years across web, mobile (React Native) and TV apps.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html
       lang="en"
-      className={`${outfit.variable} ${caveat.variable} h-full antialiased`}
+      className={`${outfit.variable} ${caveat.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full bg-bg text-ink font-sans selection:bg-teal selection:text-white">
+        {children}
+      </body>
     </html>
   );
 }
